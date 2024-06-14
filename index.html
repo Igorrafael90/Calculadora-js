@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="calculadora">
+            <p class="resultado"></p>
+            <table class="buttons">
+                <tr>
+                    <td><button onclick="clean()" class="darkgray">C</button></td>
+                    <td><button onclick="back()" class="darkgray"><</button></td>
+                    <td><button onclick="insert('%')" class="darkgray">%</button></td>
+                    <td><button onclick="insert('/')" class="darkgray">÷</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="insert('7')" class="ligthgray">7</button></td>
+                    <td><button onclick="insert('8')" class="ligthgray">8</button>
+                    <td><button onclick="insert('9')" class="ligthgray">9</button>
+                    <td><button onclick="insert('*')" class="darkgray">x</button>
+                </tr>
+
+                <tr>
+                    <td><button onclick="insert('4')" class="ligthgray">4</button>
+                    <td><button onclick="insert('5')" class="ligthgray">5</button>
+                    <td><button onclick="insert('6')" class="ligthgray">6</button>
+                    <td><button onclick="insert('-')" class="darkgray">-</button>
+                </tr>
+
+                <tr>
+                    <td><button onclick="insert('1')" class="ligthgray">1</button>
+                    <td><button onclick="insert('2')" class="ligthgray">2</button>
+                    <td><button onclick="insert('3')" class="ligthgray">3</button>
+                    <td><button onclick="insert('+')" class="darkgray">+</button>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button onclick="insert('0')" class="ligthgray0">0</button>
+                    <td><button onclick="insert('.')" class="darkgray">.</button>
+                    <td><button onclick="equal()" class="darkgray">=</button>
+                </tr>
+            </div>
+        </table>
+    <script text="text/javascript" src="ambiente.js"></script>
+</body>
+</html>
